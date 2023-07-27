@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 mongo = PyMongo()
 
+easter_egg = "github:NathanOnCodes"
 
 def create_app() -> Flask:
     app = Flask(__name__)
